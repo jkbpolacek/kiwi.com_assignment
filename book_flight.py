@@ -38,7 +38,7 @@ def parseArgs():
     argparser.add_argument("--bags",
                            help="Specify number of bags brought",
                            default="0",
-                           choices=["0", "1", "2", "3", "4"])
+                           choices=["0", "1", "2"])
 
     cheapOrFastGroup.add_argument("--cheapest",
                                   help="Use to find cheapest flight (default)",
